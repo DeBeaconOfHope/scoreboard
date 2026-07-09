@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron";
+}
+
+.scoreboard,
+.increment-btn,
+#resetBtn{
+  background-color: #e2eafc;
+}
+
+.container,
+.scoreboard,
+.score-card,
+.score-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  background-color: #e2eafc;
+  height: 100vh;
+}
+
+.scoreboard{
+  height: 400px;
+  width: 650px;
+  opacity: 0.9;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.score-card{
+  flex-direction: column;
+  width: 250px;
+  height: 350px;
+}
+
+.main-title,
+.title{
+  text-transform: uppercase;
+}
+
+.title,
+.increment-btn,
+#resetBtn{
+  color: #22333b;
+}
+
+.title{
+  margin-bottom: 0px;
+}
+
+.score-box{
+  background-color: black;
+  width: 200px;
+  height: 180px;
+  margin: 25px;
+  border-radius: 10px;
+}
+
+.home-score,
+.guest-score{
+  color: rgb(198, 67, 67);
+  font-size: 6em;
+}
+
+.button-div{
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.increment-btn,
+#resetBtn{
+  border-radius: 5px;
+  border: 1px solid #22333b;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#resetBtn{  
+  font-size: 10px;
+  font-weight: 600;
+}
+
+#resetBtn:hover{
+  background-color: #abc4ff;
+  opacity: 0.7;
+}
+
+.increment-btn:hover{
+  background-color: #abc4ff;
+  opacity: 0.7;
+}
+
+@media screen and (max-width:600px) {
+
+  .scoreboard{
+    margin: 35px;
+  height: 350px;
+  width: 550px;
+  opacity: 0.9;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.score-card{
+  flex-direction: column;
+  width: 150px;
+  height: 250px;
+}
+
+.score-box{
+  background-color: black;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.home-score,
+.guest-score{
+  color: rgb(198, 67, 67);
+  font-size: 5em;
+}
+
+.button-div{
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reset-div{
+  margin: 20px;
+}
+
+.increment-btn,
+#resetBtn{
+  border-radius: 5px;
+  border: 1px solid #22333b;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#resetBtn{  
+  font-size: 10px;
+  font-weight: 600;
+  height: 50px;
+  width: 50px;
+}
+
+
+
+}
+
+
+
+
+
